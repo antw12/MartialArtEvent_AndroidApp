@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bigger_font">18dp</dimen>
+    <dimen name="MainMenu">30dp</dimen>
+    <dimen name="fontsize">21dp</dimen>
+    <dimen name="clubdes">16dp</dimen>
+    <dimen name="title">30dp</dimen>
+    <dimen name="title2">27dp</dimen>
+    <dimen name="buttonfont">12dp</dimen>
+    <dimen name="newww">9dp</dimen>
+    <dimen name="title3">23dp</dimen>
+
+</resources>

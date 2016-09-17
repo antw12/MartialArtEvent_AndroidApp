@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Martial Arts Event</string>
+    <string name="hello_world">This app was made by Andy Waldman</string>
+    <string name="action_settings">Settings</string>
+    <string name="the_splash_screen_image">Martial arts logo</string>
+    <string name="title_activity_splash">Splash Screen</string>
+    <string name="title_activity_about_club">About Club</string>
+    <string name="title_activity_event">Event</string>
+    <string name="title_activity_karate_examples">Karate Examples</string>
+    <string name="title_activity_contactand_find">Contact and Find</string>
+    <string name="app_splash_title">Martial Arts Demonstration</string>
+    <string name="theme_colour_red">Red</string>
+    <string name="theme_colour_blue">Blue</string>
+    <string name="karate_description">Karate is based on self defence. Being able to defend yourself against violence. Not only does karate teach you how to defend yourself but it teaches you in the art of discipline, respect. Martial arts is very good at allowing you to control your temper as well as allowing you to concentrate on thoughts and relax. At the end of all sessions martial artists perform a short amount of meditation to relax not only the body but the mind to . These skills can be used in every day life and not just to protect yourself against violence.</string>
+    <string name="home">Home</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="yin_yang">Ying and Yang, light and dark</string>
+    <string name="title_activity_about_karate">AboutKarateActivity</string>
+    <string name="about_club">About Club</string>
+    <string name="about_karate">About Karate</string>
+    <string name="the_event">The Event</string>
+    <string name="example_of_karate">Karate Technique Examples</string>
+    <string name="the_website">Club Website</string>
+    <string name="find_and_contact">Find Event and Contact us</string>
+    <string name="title_activity_find_club_and_contact">FindClubAndContactActivity</string>
+    <string name="button_event">Button to event page</string>
+    <string name="button_about_club">Button to about club page</string>
+    <string name="button_about_karate">Button to about karate page</string>
+    <string name="button_technique">Button to Karate Technique Examples page</string>
+    <string name="button_website">Button to website page</string>
+    <string name="button_find_contact">Button to find and contact us page</string>
+    <string name="club_description">KSD karate club is run by Darren Barber a 4th Dan of kenshudo karate. The club started with 10 founding members and now has increased dramatically. Teaching people from the age of 4 to 65+. It is a well establised club and is renound for hardwork, discipline and training (with a little bit of enjoyment to). giving you the skills necessary to protect yourself from violence, how to avoid situations and how to respect one another both in the dojo and out the dojo.</string>
+	<string name="event_description">The EVENT will consit of a FREE KARATE lesson with a demonstration from our more experienced martial artists. They will demonstrate the more advanced things as well as very good basics. </string>
+    <string name="event_title">The Event</string>
+    <string name="them_color_white">White</string>
+    <string name="link_website">Link to Club website find out more of the event!!!!</string>
+    <string name="event_when">WHEN!!: 30/05/2015</string>
+    <string name="event_where">WHERE!!: M45 6BL</string>
+    <string name="click_button">Click Here to locate us on googlemaps!!!</string>
+    <string name="locate_us">Locate Us</string>
+	<string name="play_pause">Play/Pause</string>	
+</resources>

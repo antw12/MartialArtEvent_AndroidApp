@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkGray"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.martialartsevent.AboutClubActivity" >
+
+    <ImageButton
+        android:id="@+id/websiteButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/findAndContactButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="17dp"
+        android:contentDescription="@string/button_website"
+        android:src="@drawable/black" />
+
+    <ImageButton
+        android:id="@+id/findAndContactButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/eventButton"
+        android:layout_alignLeft="@+id/karateExampleButton"
+        android:contentDescription="@string/button_find_contact"
+        android:src="@drawable/purple" />
+
+    <ImageButton
+        android:id="@+id/karateExampleButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/findAndContactButton"
+        android:layout_alignLeft="@+id/aboutClubButton"
+        android:contentDescription="@string/button_technique"
+        android:src="@drawable/blue" />
+
+    <ImageButton
+        android:id="@+id/eventButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/websiteButton"
+        android:layout_alignLeft="@+id/websiteButton"
+        android:contentDescription="@string/button_event"
+        android:src="@drawable/brown" />
+
+    <ImageButton
+        android:id="@+id/aboutKarateButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/aboutClubButton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:contentDescription="@string/button_about_karate"
+        android:src="@drawable/whitebelt" />
+
+    <ImageButton
+        android:id="@+id/aboutClubButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/karateExampleButton"
+        android:layout_alignLeft="@+id/aboutKarateButton"
+        android:contentDescription="@string/button_about_club"
+        android:src="@drawable/green" />
+
+    <TextView
+        android:id="@+id/aboutKarate"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/aboutKarateButton"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/aboutKarateButton"
+        android:text="@string/about_karate"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/aboutClub"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/aboutKarate"
+        android:layout_alignRight="@+id/aboutKarate"
+        android:layout_alignTop="@+id/aboutClubButton"
+        android:layout_marginTop="14dp"
+        android:text="@string/about_club"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/mainMenuTitle"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/main_menu"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/MainMenu" />
+
+    <TextView
+        android:id="@+id/karateExample"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/aboutClub"
+        android:layout_alignTop="@+id/karateExampleButton"
+        android:layout_toLeftOf="@+id/karateExampleButton"
+        android:text="@string/example_of_karate"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/findAndContact"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/karateExample"
+        android:layout_below="@+id/karateExampleButton"
+        android:layout_toLeftOf="@+id/findAndContactButton"
+        android:text="@string/find_and_contact"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/theEvent"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/findAndContact"
+        android:layout_alignTop="@+id/eventButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/the_event"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/theEvent"
+        android:layout_alignTop="@+id/websiteButton"
+        android:layout_marginTop="15dp"
+        android:text="@string/the_website"
+        android:textColor="@color/Chartreuse"
+        android:textSize="@dimen/fontsize" />
+
+</RelativeLayout>

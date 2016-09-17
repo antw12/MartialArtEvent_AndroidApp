@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExtraTranslation" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_find_club_and_contact.xml" />
+    </issue>
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/activity_find_club_and_contact.xml" />
+    </issue>
+</lint>
